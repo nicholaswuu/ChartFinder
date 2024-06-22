@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+		<link rel = "stylesheet" href="general.css">
+		<title>Chart Finder</title>
+	</head>
+	<body onload = "landingPageParameters()">
+		<div id = "parameters" class = "valign-wrapper">
+			
+			<!-- ––––––––––––––––––––––– GENRES SELECT ––––––––––––––––––––––– -->
+
+			<div class="tooltipped input-field col s12 genres" data-position="bottom" data-tooltip="Select Genres">
+				<select multiple id = "genres">
+					<option value="" disabled unselected>Genres</option>
+					<option value="pop">Pop</option>
+					<option value="hip-hop">Hip hop</option>
+					<option value="rock">Rock</option>
+					<option value="jazz">Jazz</option>
+					<option value="classical">Classical</option>
+					<option value="edm">EDM</option>
+					<option value="country">Country</option>
+					<option value="r-n-b">R&B</option>
+					<option value="romance">Romance</option>
+					<option value="indie">Indie</option>
+					<option value="k-pop">K-Pop</option>
+					<option value="latin">Latin</option>
+					<option value="reggae">Reggae</option>
+					<option value="dubstep">Dubstep</option>
+					<option value="world-music">World</option>
+					<option value="funk">Funk</option>
+				</select>
+			</div>
+
+
+			<!-- ––––––––––––––––––––––––- SEARCH BAR –––––––––––––––––––––––– -->
+
+			<div class="tooltipped chips-autocomplete artists" data-position="bottom" data-tooltip="Type Artists and Press Enter">
+				<input id = "artists" placeholder="Artists...">
+			</div>
+
+
+			<!--  –––––––––––––––––––––––– YEAR DDOWN ––––––––––––––––––––––––– -->
+			<div class="tooltipped input-field col s12 ddown1" data-position="bottom" data-tooltip="Oldest Release Year">
+				<select name = "year1" id = "year1">
+					<option value="" disabled selected>Oldest</option>
+					<option value ="">Any</option>
+				</select>
+			</div>
+			–
+			<div class="tooltipped input-field col s12 ddown2" data-position="bottom" data-tooltip="Newest Released Year">
+				<select name = "year2" id = "year2">
+					<option value="" disabled selected>Newest</option>
+					<option value ="">Any</option>
+				</select>
+			</div>
+			<a class="waves-effect waves-light btn-flat" id = "submit" onclick="submit()">Submit</a>
+		</div>
+		<table id = "results"></table>
+	</body>
+	<script src = "general.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>

@@ -1,0 +1,234 @@
+body{
+	background-color: #1a1a1a;
+	font-family: "Roboto";
+	color: white;
+	text-align: center;
+	overflow-x: hidden;
+}
+button:focus{
+	background-color: black;
+	color: white;
+}
+input{
+	color: white;
+}
+a{
+	color: #555555;
+}
+a:hover{
+	color: white;
+	transition-duration: 0.1s;
+}
+.grid {
+	align-items: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 12px;
+	padding: 20px;
+}
+.grid > div {
+	font-size: 30px;
+	width: 340px;
+	height: 340px;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	opacity: 70%;
+	font-weight: bold;
+	transition-duration: 0.2s;
+}
+.grid > div:hover{
+	cursor: pointer;
+	opacity: 100%
+}
+#title{
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-size: 50px;
+}
+#subtitle{
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	font-size: 24px;
+	font-weight: lighter;
+}
+#pop{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://www.teenstarcompetition.co.uk/wp-content/uploads/2020/04/Easy-songs-to-sing-that-sound-impressive--e1587138125666.jpeg);
+}
+#hip-hop{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://flypaper.soundfly.com/wp-content/uploads/2018/09/uzi-vert-facebook.jpg);
+	background-position: center right;
+}
+#rock{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://www.thousandfoldecho.com/wp-content/uploads/2017/09/musician-2708190_1280-860x450.jpg);
+}
+#classical{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://cdn12.picryl.com/photo/2016/12/31/classical-music-concert-macro-music-0fcc6c-1024.jpg);
+	background-position: center 70%;
+}
+#jazz{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1597355404305-7112c26fda49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+}
+#edm{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://live.staticflickr.com/65535/49389785313_1b6dc5a4ab_b.jpg);
+	background-position: center;
+}
+#country{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://www.traveldailymedia.com/assets/2019/12/country-music.jpg);
+	background-position: left;
+}
+#r-n-b{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/28707/article_full%401x.jpg);
+	background-position: center 70%;
+}
+#romance{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://upload.wikimedia.org/wikipedia/commons/9/9c/Desert_Island_Romance.jpg);
+	background-position: center;
+}
+#indie{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://images.unsplash.com/photo-1585993710444-aad7a0016901?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80);
+	background-position: center;
+}
+#k-pop{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://media.blogto.com/articles/ace-concert-toronto-1.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70);
+	background-position: left;
+}
+#latin{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://www.worldatlas.com/upload/c6/3b/de/shutterstock-255106795.jpg);
+	background-position: center 70%;
+}
+#reggae{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://c.files.bbci.co.uk/6C73/production/_104536772_bob_getty.jpg);
+	background-position: center 70%;
+}
+#dubstep{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://i.ytimg.com/vi/Y0Ub2EfHjBU/maxresdefault.jpg);
+	background-position: center 70%;
+}
+#world-music{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://live.staticflickr.com/3156/2731067095_73f8f62020_b.jpg);
+}
+#funk{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("https://www.liveabout.com/thmb/F62nHcgzbEqx3gvUdgFIfWE6DiA=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-579175664-59b30c26396e5a0010532c36.jpg");
+}
+.button{
+	cursor: pointer;
+	background-color: black;
+	font-size: 25px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+	height: 75px;
+}
+.button:hover{
+	color: black;
+	background-color: white;
+	transition-duration: 0.1s;
+}
+#parameters{
+	width: 100%;
+	margin: 40px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center;
+}
+.genres{
+	width: 150px;
+	margin: 10px;
+}
+#results{
+	width: 100%;
+	font-size: 10px;
+	line-height: 30px;
+}
+.chip{
+	background-color: #4d4d4d;
+	color: white;
+}
+.chip:hover{
+	background-color: #595959;
+}
+.artists{
+	width: 300px;
+	top: -4px;
+	margin: 10px;
+	overflow: auto;
+	text-align: left;
+	white-space: nowrap;
+}
+.artists:hover{
+	background-color: #222222;
+}
+.chips{
+	padding-left: 8px;
+}
+.chips .input{
+	color: white;
+}
+.ddown1{
+	width: 100px;
+	margin: 10px;
+	margin-left: 20px;
+}
+.ddown2{
+	width: 100px;
+	margin: 10px;
+}
+#submit{
+	color: #e83a3a;
+	margin-left: 15px;
+	font-size: 16px;
+}
+table{
+	border-collapse: collapse;
+}
+th, td {
+  	border-bottom: 1px solid #333333;
+  	padding: 12px;
+ 	text-align: left;
+ 	font-size: 15px;
+ 	overflow: hidden;
+ 	max-width: 10px;
+}
+th{
+	background-color: #222222;
+	border-bottom: 2px solid #555555;
+	color: #555555;
+	font-weight: lighter;
+}
+tr:hover{
+	background-color: #222222;
+}
+#thead:hover{
+	background-color: black;
+}
+/* MATERIALIZE CUSTOMIZATION */
+
+.dropdown-content li>span{
+	color: #e83a3a;
+}
+.select-wrapper .caret{
+	fill: white;
+}
+.chips.focus{
+	border-bottom: 1px solid white;
+	box-shadow: none;
+	background-color: #252525;
+}
+.chip:focus{
+	background-color: #d83a3a;
+}
+.select-wrapper input.select-dropdown:focus{
+	border-bottom: 1px solid white;
+}
+[type="checkbox"]:checked+span:not(.lever):before{
+	border-right: 2px solid crimson;
+	border-bottom: 2px solid crimson;
+}
